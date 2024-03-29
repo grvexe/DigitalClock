@@ -15,8 +15,12 @@ body {
 }
 
 #clock {
+    margin-top: 10%;
     font-size: 5rem;
     font-weight: bold;
 }
 
-/* #date {} */
+#date {
+    margin-top: 5%;
+    font-size: 1.5rem;
+}
