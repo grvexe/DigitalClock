@@ -9,8 +9,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Seven Segment';
-    background-color: #070707;
+    background-color: #000800;
     color: #32CD32;
+    user-select: none;
 }
 
 .container {
