@@ -8,7 +8,6 @@ function updateTime(){
     let seconds = now.getSeconds().toString().padStart(2, '0');;
     let time = `${hours}:${minutes}:${seconds} ${meridiem}`;
     document.getElementById("clock").textContent = time;
-    console.log(`${hours}:${minutes}:${seconds}`); //bug fix
 }
 
 function updateDate(){
