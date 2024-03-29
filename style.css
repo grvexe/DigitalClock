@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    background-color: #070707;
+    color: #32CD32;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clock {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+/* #date {} */
