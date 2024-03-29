@@ -85,6 +85,5 @@ function updateDate(){
 }
 
 updateDate();
-setInterval(updateDate, 86400000);
 updateTime();
 setInterval(updateTime, 1000);
