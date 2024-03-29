@@ -1,7 +1,14 @@
+@font-face {
+    font-family: 'Seven Segment';
+    font-style: normal;
+    font-weight: normal;
+    src: url('Seven Segment.woff') format('woff');
+}
+
 body {
     margin: 0;
     padding: 0;
-    font-family: monospace;
+    font-family: 'Seven Segment';
     background-color: #070707;
     color: #32CD32;
 }
